@@ -19,7 +19,7 @@ using namespace std;
        node *newnode= new node();
        newnode->data= data;
        newnode->next= previous->next;
-       previous->next;
+      previous->next=new node;
        return newnode;
    }
    
