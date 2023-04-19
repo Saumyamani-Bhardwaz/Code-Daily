@@ -25,8 +25,6 @@ using namespace std;
         x.name= "Gomu";
         x.gender= "Male";
         x.knowsEnglish= 1;
-        
-       // teacher = {"Gomu", 25, 10000};
         x.teacherDetails(x.name, x.age,x.salary);
         cout<<endl;
    
