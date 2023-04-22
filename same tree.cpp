@@ -12,9 +12,6 @@
 class Solution {
 public:
 bool isSameTree(TreeNode* p, TreeNode* q) { 
-
-//cout<<"Saumyamani Bhardwaz_20BCS1682"<<endl;
-
 if(!p && !q)
 return true; 
 if(!p || !q)
