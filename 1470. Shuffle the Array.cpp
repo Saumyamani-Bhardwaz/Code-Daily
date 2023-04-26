@@ -5,6 +5,7 @@ public:
         for(int i=0;i<n;i++){
             ans.push_back(nums[i]);
             if(nums.size()) {
+                //Saumyamani
                 ans.push_back(nums[i+n]);
             }
         }
